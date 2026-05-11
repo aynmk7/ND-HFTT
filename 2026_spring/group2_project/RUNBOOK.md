@@ -1,13 +1,9 @@
-# HFT-Bitcoin-Project: Predicting Bitcoin Prediction Markets Outcomes 
-**Team:** Aynaz Namik, Leonardo Molina, Marco Tchernychev  
-**Course:** CSE 40438 High-Frequency Trading Technologies, Spring 2026
+# RUNBOOK: HFT-Bitcoin-Project Setup
 
-## Overview 
-
-This project studies the relationship between Bitcoin spot price movements on Coinbase and the Polymarket BTC Up/Down prediction contracts (5-minutes and 15-minute windows). 
+Detailed setup steps for the Mullvad/Docker proxy and data collection pipeline.
 
 ## Respository Structure
-```bash 
+```bash
 HFT-BITCOIN-PROJECT/
 ├── README.md
 ├── requirements.txt
@@ -34,7 +30,7 @@ HFT-BITCOIN-PROJECT/
         └── polymarket_btc5_15m_orderbook_*.csv
 ```
 
-> **Note:** The `Data/` directory is excluded from version control via `.gitignore` 
+> **Note:** The `Data/` directory is excluded from version control via `.gitignore`
 > because the files are large. See the **Step 6: start data collection** section below to regenerate them.
 
 ## Setup and Reproduction
